@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta.name }} - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cv-container">
+        <header class="cv-header">
+            <h1 class="name">{{ meta.name }}</h1>
+            {% if meta.title %}
+            <p class="title">{{ meta.title }}</p>
+            {% endif %}
+
+            <div class="contact-info">
+                {% if meta.email %}
+                <span class="contact-item">{{ meta.email }}</span>
+                {% endif %}
+                {% if meta.phone %}
+                <span class="contact-item">{{ meta.phone }}</span>
+                {% endif %}
+                {% if meta.location %}
+                <span class="contact-item">{{ meta.location }}</span>
+                {% endif %}
+            </div>
+
+            <div class="links">
+                {% if meta.linkedin %}
+                <a href="https://{{ meta.linkedin }}" class="link-item">LinkedIn</a>
+                {% endif %}
+                {% if meta.github %}
+                <a href="https://{{ meta.github }}" class="link-item">GitHub</a>
+                {% endif %}
+                {% if meta.website %}
+                <a href="https://{{ meta.website }}" class="link-item">Portfolio</a>
+                {% endif %}
+            </div>
+        </header>
+
+        <main class="cv-content">
+            {{ content | safe }}
+        </main>
+    </div>
+</body>
+
+</html>

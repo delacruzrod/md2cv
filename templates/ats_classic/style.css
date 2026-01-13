@@ -1,0 +1,188 @@
+/* ATS Classic Template - Style Sheet */
+/* Clean, readable design optimized for ATS compatibility */
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #333333;
+    background: #ffffff;
+}
+
+/* Container */
+.cv-container {
+    max-width: 210mm;
+    /* A4 width */
+    margin: 0 auto;
+    padding: 20mm 25mm;
+    background: #ffffff;
+}
+
+/* Header */
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333333;
+}
+
+.name {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 12pt;
+    color: #555555;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 8px;
+    font-size: 10pt;
+}
+
+.contact-item {
+    color: #444444;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link-item {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.link-item:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.cv-content {
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* Headings */
+.cv-content h1 {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cv-content h2 {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.cv-content h3 {
+    font-size: 11pt;
+    font-weight: normal;
+    font-style: italic;
+    color: #444444;
+    margin-bottom: 5px;
+}
+
+/* Paragraphs */
+.cv-content p {
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+/* Lists */
+.cv-content ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.cv-content li {
+    margin-bottom: 4px;
+}
+
+/* Strong & Emphasis */
+.cv-content strong {
+    font-weight: bold;
+    color: #222222;
+}
+
+.cv-content em {
+    font-style: italic;
+}
+
+/* Links */
+.cv-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.cv-content a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Rules */
+.cv-content hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 15px 0;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+    }
+
+    .cv-container {
+        padding: 15mm 20mm;
+        max-width: 100%;
+    }
+
+    .link-item {
+        color: #333333;
+    }
+
+    .cv-content a {
+        color: #333333;
+    }
+}
+
+/* Page Break Helpers */
+.page-break {
+    page-break-before: always;
+}
+
+.no-break {
+    page-break-inside: avoid;
+}
